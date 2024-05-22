@@ -50,8 +50,8 @@ const allJobs = [
   {
     headline: "Trainee Web Development",
     type: "Remote",
-    location: "Frankfurt am Main",
-    company: "Accenture Song",
+    location: "Hamburg",
+    company: "neue fische",
     dates: {
       startDate: "Aug. 2021",
       endDate: "Nov. 2021",
@@ -72,7 +72,7 @@ const allJobs = [
 
 export default function Jobs() {
   return (
-    <div className="relative bg-white pb-32">
+    <section id="work-experience" className="relative bg-white md:pb-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
           💻 - Work Experience
@@ -83,6 +83,6 @@ export default function Jobs() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

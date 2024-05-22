@@ -1,7 +1,7 @@
-import { Inter } from "next/font/google";
+import { Montserrat, Outfit } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Montserrat({ subsets: [] });
 
 export const metadata = {
   title: "Fabian Hanso",

@@ -1,3 +1,7 @@
+"use client";
+
+import { TypeAnimation } from "react-type-animation";
+
 export default function Hero() {
   return (
     <div className="relative bg-white min-h-screen flex items-center justify-center py-32 md:py-0">
@@ -5,10 +9,23 @@ export default function Hero() {
         <div className="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-12 gap-y-32 md:gap-y-0 gap-x-8 md:px-8">
           <div className="px-6 md:col-span-6 lg:px-0 xl:col-span-6 flex items-center">
             <div className="mx-auto max-w-2xl lg:mx-0">
-              <h1 className="lg:mt-0 text-4xl font-bold text-gray-900 sm:mt-10 sm:text-6xl">
-                Hey there! I am a <span className="text-fourth">software</span>{" "}
-                developer
-              </h1>
+              {/* <h1 className="lg:mt-0 text-4xl font-bold text-gray-900 sm:mt-10 sm:text-6xl tracking-tight">
+                I'm a <span className="text-fourth">software</span> developer
+              </h1> */}
+              <TypeAnimation
+                sequence={[
+                  // Same substring at the start will only be typed out once, initially
+                  "I'm a ",
+                  1000, // wait 1s before replacing "Mice" with "Hamsters"
+                  "I'm a software \ndeveloper",
+                ]}
+                style={{ whiteSpace: "pre-line" }}
+                wrapper="span"
+                speed={50}
+                className="lg:mt-0 text-4xl font-bold text-gray-900 sm:mt-10 sm:text-6xl tracking-tight"
+                repeat={0}
+                preRenderFirstString={true}
+              />
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 On this page I will introduce myself to you with all my
                 expertise, skills and interests. You will find my social links a
