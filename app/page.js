@@ -12,12 +12,12 @@ export default function Home() {
     window.scroll({
       top: 0,
       left: 0,
-      behavior: 'smooth',
     });
   })
 
   return (
     <main className="w-full h-auto bg-white">
+      <div className="w-full h-auto bg-primary p-2 flex justify-center items-center text-white">This page is still under construction!</div>
       <Hero />
       <Jobs />
       <ContactCTA />
