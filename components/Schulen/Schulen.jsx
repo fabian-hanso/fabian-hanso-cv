@@ -18,10 +18,7 @@ const alleSchulen = [
       "MySQL",
       "CSS",
       "Frontend Development",
-    ],
-    description:
-      "I work as a software developer primarily focused on crafting and implementing Micro-Frontends. Our project operates in agile sprints, allowing us to frequently deploy new features. Presently, I'm involved in a team handling a significant automotive manufacturer's project. Prior to this, I've contributed to two other projects within the automotive sector. Alongside my primary role with Micro-Frontends, I also undertake minor backend tasks, particularly in the realm of BFF (Backend for Frontend), as well as work in AEM (Adobe Experience Manager) and AWS (Amazon Web Services). It's a diverse range of responsibilities, enabling me to leverage and enhance my skills across various domains.",
-  },
+    ],},
   {
     headline: "Berufsbildende Schule Westerburg",
     grade: "2,8",
@@ -35,14 +32,11 @@ const alleSchulen = [
       "PHP",
       "CSS",
       "HTML",
-      "JavaSceipt",
+      "JavaScript",
       "Social Business",
       "Commerce",
       "Finance",
-    ],
-    description:
-      "At Revice Media, we've established our presence to aid small and medium-sized enterprises in their inception and growth. As a Lead Software Developer, my primary responsibility revolves around spearheading the Full-Stack software development of websites and native applications (IOS with Swift). I strategize and engineer scalable, extensible software solutions using cutting-edge technologies exclusively. I eschew outdated methodologies and frameworks, preferring to remain at the forefront of technological advancements. Additionally, I oversee social media accounts, fostering their organic growth.",
-  },
+    ],},
   {
     headline: "Julius-Wegeler-Realschule",
     grade: "2,4",
@@ -53,9 +47,7 @@ const alleSchulen = [
       endDate: "Nov. 2021",
     },
     technologies: ["Math", "English", "Science", "IT"],
-    description:
-      "At Revice Media, we've established our presence to aid small and medium-sized enterprises in their inception and growth. As a Lead Software Developer, my primary responsibility revolves around spearheading the Full-Stack software development of websites and native applications (IOS with Swift). I strategize and engineer scalable, extensible software solutions using cutting-edge technologies exclusively. I eschew outdated methodologies and frameworks, preferring to remain at the forefront of technological advancements. Additionally, I oversee social media accounts, fostering their organic growth.",
-  },
+    },
 ];
 
 export default function Schulen() {

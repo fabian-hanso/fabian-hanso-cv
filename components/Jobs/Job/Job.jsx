@@ -1,10 +1,18 @@
-import React from "react";
+"use client"
+
+import React, { useEffect, useState } from "react";
+import { motion } from "motion/react"
 
 function Job({ job }) {
+
   return (
-    <div
+    <motion.div
       key={job.headline}
       className="flex flex-col lg:grid lg:grid-cols-12 gap-x-8 gap-y-4"
+      initial={{ y: 500, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ duration: .6, ease: "easeInOut"}}
+      viewport={{once: true}}
     >
       <div className="text-fourth text-lg font-semibold lg:col-span-3">
         {job.dates.startDate + " - " + job.dates.endDate}
@@ -19,8 +27,12 @@ function Job({ job }) {
           <div>🌍</div>
           <div className="text-third">{job.location + " - " + job.type}</div>
         </div>
-        <p className="text-third text-m lg:text-lg pb-4">{job.description}</p>
-        <div className="flex gap-2 flex-wrap">
+        <ul className="flex flex-col gap-1">
+          {job.description.map((item) => (
+            <li className="text-third text-m lg:text-lg list-inside list-disc" key={item}>{item}</li>
+          ))}
+        </ul>
+        <div className="flex gap-2 flex-wrap pt-4">
           {job.technologies.map((tech) => (
             <div
               key={tech}
@@ -31,7 +43,7 @@ function Job({ job }) {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

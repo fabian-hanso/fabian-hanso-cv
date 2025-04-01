@@ -19,7 +19,7 @@ export default function ContactCTA() {
             >
               LinkedIn
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
+            <a href="mailto:f.hanso@revice-media.com" className="text-sm font-semibold leading-6 text-white">
               E-Mail <span aria-hidden="true">→</span>
             </a>
           </div>

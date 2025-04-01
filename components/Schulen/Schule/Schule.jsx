@@ -1,10 +1,16 @@
+"use client"
 import React from "react";
+import { motion } from "motion/react"
 
 function Schule({ job }) {
   return (
-    <div
+    <motion.div
       key={job.headline}
       className="flex flex-col lg:grid lg:grid-cols-12 gap-x-8 gap-y-4"
+      initial={{ y: 500, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ duration: .6, ease: "easeInOut"}}
+      viewport={{once: true}}
     >
       <div className="text-fourth text-lg font-semibold lg:col-span-3">
         {job.dates.startDate + " - " + job.dates.endDate}
@@ -35,7 +41,7 @@ function Schule({ job }) {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
