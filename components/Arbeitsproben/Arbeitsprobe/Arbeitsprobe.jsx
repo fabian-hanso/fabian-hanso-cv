@@ -13,7 +13,7 @@ function Arbeitsprobe({ job }) {
     >
       <div className="aspect-[4/3] overflow-hidden">
         <img
-          src="/FH_2.jpg"
+          src={job.image}
           alt=""
           className="inset-0 h-full w-full bg-gray-50 object-cover"
         />

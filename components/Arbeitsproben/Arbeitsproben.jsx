@@ -4,6 +4,7 @@ const workSamples = [
   {
     headline: "Fitness App (Private)",
     grade: "1,9",
+    image: "/SquadStride.jpg",
     location: "Koblenz",
     company: "iOS Development & Design",
     dates: {
@@ -24,6 +25,7 @@ const workSamples = [
   {
     headline: "Bauhaus UI",
     grade: "2,8",
+    image: "/BUI.jpg",
     location: "Westerburg",
     company: "Web Development & Design",
     dates: {
@@ -42,6 +44,7 @@ const workSamples = [
   {
     headline: "SquadStride",
     grade: "2,4",
+    image: "/SquadStride.jpg",
     location: "Wirges",
     company: "Web Development",
     dates: {
