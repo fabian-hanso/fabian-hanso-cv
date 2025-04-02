@@ -6,7 +6,7 @@ function Arbeitsprobe({ job }) {
     <motion.div
       key={job.headline}
       className="flex flex-col rounded-2xl overflow-hidden border border-secondary"
-      initial={{ x: 500, opacity: 0 }}
+      initial={{ x: 100, opacity: 0 }}
       whileInView={{ x: 0, opacity: 1 }}
       transition={{ duration: .8, ease: "easeInOut"}}
       viewport={{once: true}}
