@@ -52,7 +52,7 @@ const alleSchulen = [
 
 export default function Schulen() {
   return (
-    <section id="degrees" className="relative bg-white pb-64 md:pt-32">
+    <section id="degrees" className="relative bg-white pb-24 md:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
           🎓 - Degrees
