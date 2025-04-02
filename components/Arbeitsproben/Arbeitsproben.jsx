@@ -64,7 +64,7 @@ export default function Arbeitsproben() {
         <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
           👨‍💻 - Work Samples
         </h2>
-        <div className="pt-8 grid grid-cols-3 gap-8">
+        <div className="pt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {workSamples.map((schule) => (
             <Arbeitsprobe key={schule.headline} job={schule} />
           ))}
