@@ -51,7 +51,7 @@ const workSamples = [
       startDate: "Aug. 2021",
       endDate: "Nov. 2021",
     },
-    technologies: ["Next", "Tailwind", "Express", "MongoDB", "TypeScript"],
+    technologies: ["Next", "TailwindCSS", "Express", "MongoDB", "TypeScript"],
     description:
       "I work as a software developer primarily focused on crafting and implementing Micro-Frontends. Our project operates in agile sprints, allowing us to frequently deploy new features. Presently, I'm involved in a team handling a significant automotive manufacturer's project.",
   },
