@@ -26,10 +26,10 @@ const allJobs = [
       "Styled Components",
     ],
     description: [
-      "Diverse agile Projekte - überwiegend für Automobilhersteller",
-      "Skalier- & erweiterbare Micro Frontends (High Performance)",
-      "Kontinuierliche Entwicklung und Integration neuer Features",
-      "Einarbeitung neuer Kollegen, sowie Mentoring",
+      "multiple agile projects for automotive manufacturers",
+      "building scalable, high performance micro frontends including middleware",
+      "continuous integration and delivery of new featuresures",
+      "mentoring junior developers",
     ]
   },
   {
@@ -44,22 +44,21 @@ const allJobs = [
     technologies: [
       "React.js",
       "Vue.js",
-      "Flutter",
+      "Firebase",
+      "WebSockets",
       "TypeScript",
       "JavaScript",
       "GraphQL",
       "Node.js",
       "(S)CSS",
       "Git",
-      "AWS",
-      "AEM",
-      "Contentful",
+      "MongoDB",
+      "Express.js",
+      "Vercel"
     ],
     description: [
-      "Diverse agile Projekte - überwiegend für Automobilhersteller",
-      "Skalier- & erweiterbare Micro Frontends (High Performance)",
-      "Kontinuierliche Entwicklung und Integration neuer Features",
-      "Einarbeitung neuer Kollegen, sowie Mentoring",
+      "intense three-month upskilling program to focus on interesting and over the edge topics",
+      "improved my problem-solving skills and enhanced my ability to design scalable and efficient web applications"
     ]
   },
   {
@@ -72,24 +71,19 @@ const allJobs = [
       endDate: "Nov. 2021",
     },
     technologies: [
-      "React.js",
-      "Vue.js",
-      "Flutter",
+      "Angular",
       "TypeScript",
       "JavaScript",
-      "GraphQL",
-      "Node.js",
       "(S)CSS",
       "Git",
-      "AWS",
-      "AEM",
-      "Contentful",
+      "Azure",
+      "AdobeCC",
     ],
     description: [
-      "Diverse agile Projekte - überwiegend für Automobilhersteller",
-      "Skalier- & erweiterbare Micro Frontends (High Performance)",
-      "Kontinuierliche Entwicklung und Integration neuer Features",
-      "Einarbeitung neuer Kollegen, sowie Mentoring",
+      "apprenticeship as a media designer for three years",
+      "design, creation and maintenance of client e-commerce shops",
+      "design of digital and print media",
+      "project management and client communication"
     ]
   },
 ];

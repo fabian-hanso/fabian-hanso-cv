@@ -1,5 +1,6 @@
 "use client"
 
+import Arbeitsproben from "@/components/Arbeitsproben/Arbeitsproben";
 import ContactCTA from "@/components/ContactCTA/ContactCTA";
 import Hero from "@/components/Hero/Hero";
 import Jobs from "@/components/Jobs/Jobs";
@@ -22,7 +23,7 @@ export default function Home() {
       <Jobs />
       <ContactCTA />
       <Schulen />
-      {/* <Arbeitsproben /> */}
+      <Arbeitsproben />
     </main>
   );
 }

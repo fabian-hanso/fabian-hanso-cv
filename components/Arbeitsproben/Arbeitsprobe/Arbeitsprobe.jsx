@@ -1,30 +1,33 @@
 import React from "react";
+import { motion } from "motion/react"
 
 function Arbeitsprobe({ job }) {
   return (
-    <div
+    <motion.div
       key={job.headline}
-      className="flex flex-col lg:grid lg:grid-cols-12 gap-x-8 gap-y-4"
+      className="flex flex-col rounded-2xl overflow-hidden border border-secondary"
+      initial={{ x: 500, opacity: 0 }}
+      whileInView={{ x: 0, opacity: 1 }}
+      transition={{ duration: .8, ease: "easeInOut"}}
+      viewport={{once: true}}
     >
-      <div className="lg:col-span-3">
+      <div className="aspect-[4/3] overflow-hidden">
         <img
           src="/FH_2.jpg"
           alt=""
-          className="inset-0 h-full w-full rounded-lg bg-gray-50 object-cover"
+          className="inset-0 h-full w-full bg-gray-50 object-cover"
         />
-        <div className="absolute inset-0 rounded-lg" />
+        <div className="absolute inset-0" />
       </div>
 
-      <div className="lg:col-span-9 border-l-2 border-dotted border-gray-300 pl-4 lg:border-none lg:pl-0">
+      <div className="lg:border-none p-4">
         <div className="flex items-center gap-x-4">
-          <div className="text-primary text-m font-bold pb-4 flex gap-4">
-            <div>💼</div>
+          <div className="text-primary text-m font-bold pb-2">
             <div>{job.company}</div>
           </div>
         </div>
         <div className="group relative max-w-full">
           <h3 className="text-third text-2xl font-bold pb-4">{job.headline}</h3>
-          <p className="text-third text-m lg:text-lg pb-4">{job.description}</p>
           <div className="flex gap-2 flex-wrap">
             {job.technologies.map((tech) => (
               <div
@@ -37,7 +40,7 @@ function Arbeitsprobe({ job }) {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

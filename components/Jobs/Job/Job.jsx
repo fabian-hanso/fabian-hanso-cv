@@ -29,7 +29,7 @@ function Job({ job }) {
         </div>
         <ul className="flex flex-col gap-1">
           {job.description.map((item) => (
-            <li className="text-third text-m lg:text-lg list-inside list-disc" key={item}>{item}</li>
+            <li className="text-third text-m lg:text-lg list-disc ml-4" key={item}>{item}</li>
           ))}
         </ul>
         <div className="flex gap-2 flex-wrap pt-4">
