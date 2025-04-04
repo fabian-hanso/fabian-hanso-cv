@@ -18,7 +18,8 @@ const alleSchulen = [
       "MySQL",
       "CSS",
       "Frontend Development",
-    ],},
+    ],
+  },
   {
     headline: "Berufsbildende Schule Westerburg",
     grade: "2,8",
@@ -36,9 +37,10 @@ const alleSchulen = [
       "Social Business",
       "Commerce",
       "Finance",
-    ],},
+    ],
+  },
   {
-    headline: "Julius-Wegeler-Realschule",
+    headline: "Theodor-Heuss-Realschule",
     grade: "2,4",
     location: "Wirges",
     company: "Secondary School Diploma",
@@ -47,7 +49,7 @@ const alleSchulen = [
       endDate: "Nov. 2021",
     },
     technologies: ["Math", "English", "Science", "IT"],
-    },
+  },
 ];
 
 export default function Schulen() {

@@ -32,12 +32,7 @@ const workSamples = [
       startDate: "Aug. 2014",
       endDate: "Jul. 2017",
     },
-    technologies: [
-      "React",
-      "TailwindCSS",
-      "Framer Motion",
-      "Figma",
-    ],
+    technologies: ["React", "TailwindCSS", "Framer Motion", "Figma"],
     description:
       "I work as a software developer primarily focused on crafting and implementing Micro-Frontends. Our project operates in agile sprints, allowing us to frequently deploy new features. Presently, I'm involved in a team handling a significant automotive manufacturer's project.",
   },
