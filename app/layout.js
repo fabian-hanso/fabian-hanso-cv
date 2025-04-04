@@ -5,7 +5,7 @@ const inter = Montserrat({ subsets: [] });
 
 export const metadata = {
   title: "Fabian Hanso",
-  description: "Learn more about Fabian Hanso",
+  description: "Web- & App Developer",
 };
 
 export default function RootLayout({ children }) {
